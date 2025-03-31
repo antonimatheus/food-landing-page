@@ -26,9 +26,14 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100dvh;
     background-color: var(--color-primary-1);
 }
 
