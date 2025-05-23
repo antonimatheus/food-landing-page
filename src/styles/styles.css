@@ -40,6 +40,10 @@ body {
     background-color: var(--color-primary-1);
 }
 
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Edge e Safari */
+}
+
 section {
     padding: 28px 8%;
 }
